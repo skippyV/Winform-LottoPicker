@@ -1,3 +1,4 @@
+
 namespace NumberBoardWinFormDynamic
 {
     internal static class Program

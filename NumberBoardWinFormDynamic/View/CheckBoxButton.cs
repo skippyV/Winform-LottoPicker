@@ -1,8 +1,5 @@
-﻿// need to have each button contain a custom field like the name of a
-// specific text box. So that when the number button is first selected,
-// its "checkbox-state" is depressed and the text-box associated with 
-// it has the text-box name stored in the button object.
-// So need to make a custom button --
+﻿
+// Custom button from CheckBox to maintain a selected state
 // https://learn.microsoft.com/en-us/dotnet/desktop/winforms/controls-design/extend-existing?view=netdesktop-7.0
 
 using NumberBoardWinFormDynamic.View.Interfaces;

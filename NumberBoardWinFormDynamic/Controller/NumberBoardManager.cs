@@ -1,6 +1,5 @@
-﻿using NumberBoardWinFormDynamic.View.Interfaces;
-using System;
-using System.Windows.Forms;
+﻿
+using NumberBoardWinFormDynamic.View.Interfaces;
 using static NumberBoardWinFormDynamic.CheckBoxButton;
 
 /// The NumberBoardManager is the workhorse of this application.

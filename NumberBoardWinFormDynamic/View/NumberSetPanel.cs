@@ -65,8 +65,6 @@ namespace NumberBoardWinFormDynamic
             AddCheckBoxDivider();
             AddTextBoxDivider();
             AddDeleteButtonDivider();
-
-            //_managePanel.SelectPanel(this);
         }
 
         public void SendTextToTextBoxWithName(string textBoxName, string textBoxText)
@@ -75,7 +73,6 @@ namespace NumberBoardWinFormDynamic
             if (textbox != null)
             {
                 textbox.Text = textBoxText;
-                //UpdateDeleteButtonStatus();
             }
             else
             {
@@ -94,8 +91,6 @@ namespace NumberBoardWinFormDynamic
             TextBox textBox = textBoxList[index];
             textBox.Text = textBoxText;
             textBoxName = textBox.Name; // manager uses name in reference array
-
-            //UpdateDeleteButtonStatus();
 
             return true;
         }
@@ -177,6 +172,7 @@ namespace NumberBoardWinFormDynamic
 
             Controls.Add(button);
         }
+
         /// <summary>
         /// Using the RadioButtonStateIsActive member, the checkboxes of the panels will act as
         /// a group of Radio Buttons - in that only one can be selected at a time.
@@ -206,8 +202,7 @@ namespace NumberBoardWinFormDynamic
                 }
             };
             Controls.Add(checkBox);
-            //RadioButtonStateIsActive = true;
-            //checkBox.Checked = true;
+
             _managePanel.PanelCheckBoxClicked(this);
         }
 

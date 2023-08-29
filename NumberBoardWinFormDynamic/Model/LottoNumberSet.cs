@@ -1,4 +1,5 @@
-﻿namespace NumberBoardWinFormDynamic
+﻿
+namespace NumberBoardWinFormDynamic
 {
     public class LottoNumberSet
     {
@@ -36,6 +37,7 @@
         {
             return !nums.GetRange(MaxNumberValsStandard, MaxNumberValsTotal - MaxNumberValsStandard).Any(m => m.IsValid == false);
         }
+
         /// <summary>
         /// 
         /// </summary>
@@ -84,7 +86,6 @@
 
             return true;
         }
-
        
     }
 }
